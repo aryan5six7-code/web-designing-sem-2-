@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Time Management System</h1>
+    <a href="product.html">Productivity Tools</a>
+</nav>
+
+<div class="container">
+
+    <div id="clock"></div>
+
+    <input type="text" id="taskInput" placeholder="Enter Task">
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="taskList"></ul>
+
+    <h3>Completed:
+        <span id="completed">0</span> /
+        <span id="total">0</span>
+    </h3>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

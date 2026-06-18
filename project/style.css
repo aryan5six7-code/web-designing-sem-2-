@@ -1,0 +1,39 @@
+body{
+    font-family:Arial;
+    background:#f4f4f4;
+}
+
+nav{
+    background:#222;
+    color:white;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+}
+
+#clock{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+li{
+    background:white;
+    margin:10px 0;
+    padding:10px;
+    list-style:none;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:gray;
+}
